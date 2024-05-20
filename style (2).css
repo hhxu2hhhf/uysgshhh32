@@ -1,0 +1,99 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    direction: rtl;
+    text-align: right;
+}
+
+/* Menu Styles */
+.menu {
+    background-color: blanchedalmond;
+    overflow: hidden;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    float: right;
+}
+
+.menu ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background-color: #111;
+}
+
+/* Main Content Styles */
+.main {
+    padding: 20px;
+}
+
+.main h1, .main h2 {
+    color: #333;
+}
+
+.main p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Photos Section Styles */
+.photos {
+    padding: 20px;
+}
+
+.photos h1 {
+    color: paleturquoise;
+}
+
+.photos img {
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: right;
+}
+
+.footer h2 {
+    color: #B18A8A;
+}
+
+.footer p, .footer ul, .footer li {
+    color: #BAB497;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin: 5px 0;
+}
+
+.footer ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
